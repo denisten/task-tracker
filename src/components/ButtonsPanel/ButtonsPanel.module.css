@@ -1,0 +1,31 @@
+.container {
+    padding-bottom: 32px;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.createTaskBtn {
+    width: 180px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 12px;
+    height: 40px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.selector {
+    width: 200px;
+    padding: 10px 12px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.container > div:hover {
+    cursor: pointer;
+}

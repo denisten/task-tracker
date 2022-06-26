@@ -21,3 +21,16 @@ code {
   display: flex;
   justify-content: space-between;
 }
+
+.container {
+  background: #ededed;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  max-width: none;
+}
+
+.content {
+  margin: 0 auto;
+  width: 70%;
+}

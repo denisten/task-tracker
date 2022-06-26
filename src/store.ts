@@ -1,10 +1,12 @@
 import { combineReducers, createStore } from 'redux'
 import { devToolsEnhancer } from 'redux-devtools-extension'
-import { CounterReducer } from './features/counter'
+import { generalUIReducer } from './features/generalUI'
+import { taskReducer } from './features/tasks'
 
 /* Create root reducer, containing all features of the application */
 const rootReducer = combineReducers({
-  count: CounterReducer,
+  tasks: taskReducer,
+  generalUI: generalUIReducer,
 })
 
 const store = createStore(
