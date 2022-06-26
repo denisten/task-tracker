@@ -29,8 +29,8 @@ export const TaskItem: React.FC<IProps> = ({ task }) => {
 
   return (
     <div className={styles.container}>
-      <div>{task.title}</div>
-      <div>{task.employeeName}</div>
+      <div className={styles.title}>{task.title}</div>
+      <div className={styles.worker}>{task.employeeName}</div>
       <div>{data}</div>
       <div>{task.status}</div>
       <span className={styles.buttons}>
