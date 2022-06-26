@@ -14,3 +14,11 @@
     padding: 10px;
     justify-content: flex-start;
 }
+
+.container > .title {
+    width: 35%;
+}
+
+.container > .worker {
+    width: 15%;
+}
